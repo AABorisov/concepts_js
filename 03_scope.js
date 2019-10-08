@@ -1,18 +1,18 @@
-function funcA() {
+function fA() {
     let a = 1
 
-    function funcB() {
+    function fB() {
         let b = 2
 
-        function funcC() {
+        function fC() {
             let c = 3
 
-            console.log('funcC: ', a, b, c)
+            console.log('fC: ', a, b, c)
         }
-        funcC()
-        console.log('funcB: ', a, b)
+        fC()
+        console.log('fB: ', a, b)
     }
-    funcB()
-    console.log('funcA: ', a)
+    fB()
+    console.log('fA: ', a)
 }
-funcA()
+fA()
