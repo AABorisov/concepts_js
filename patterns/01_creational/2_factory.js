@@ -43,7 +43,8 @@ const factory = new MemberFactory()
 const members = [
     factory.create("Andrey", 'simple'),
     factory.create("Elena", 'premium'),
-    factory.create('Vasilisa', 'standard')
+    factory.create('Vasilisa', 'standard'),
+    factory.create("Petr")
 ]
 
 console.log(members)
