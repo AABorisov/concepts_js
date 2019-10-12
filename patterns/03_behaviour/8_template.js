@@ -7,7 +7,7 @@ class Employee {
     responsibilities() {}
 
     work() {
-        return `${this.name} does ${this.responsibilities}`
+        return `${this.name} is ${this.responsibilities()}`
     }
 
     getPaid() {
